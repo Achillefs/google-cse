@@ -1,4 +1,4 @@
-# google-cse
+# google-cse [![Build Status](https://travis-ci.org/Achillefs/google-cse.png?branch=master)](https://travis-ci.org/Achillefs/google-cse)
 
 A wee Google CSE client. Use it to easily query your custom search engine. Supports image search.
 
