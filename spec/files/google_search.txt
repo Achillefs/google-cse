@@ -1,0 +1,546 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - ian kilminster",
+    "totalResults": "4900",
+    "searchTerms": "ian kilminster",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "004660295420853704579:8tths02yqhc"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - ian kilminster",
+    "totalResults": "4900",
+    "searchTerms": "ian kilminster",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "004660295420853704579:8tths02yqhc"
+   }
+  ]
+ },
+ "context": {
+  "title": "Xegesis Images"
+ },
+ "searchInformation": {
+  "searchTime": 0.255165,
+  "formattedSearchTime": "0.26",
+  "totalResults": "4900",
+  "formattedTotalResults": "4,900"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Lemmy - Wikipedia, the free encyclopedia",
+   "htmlTitle": "Lemmy - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Lemmy",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Ian Fraser \"Lemmy\" Kilmister (born 24 December 1945 in Burslem, Stoke-on-  Trent, Staffordshire, England) is an English rock musician. He is best known as   the ...",
+   "htmlSnippet": "\u003cb\u003eIan\u003c/b\u003e Fraser &quot;Lemmy&quot; \u003cb\u003eKilmister\u003c/b\u003e (born 24 December 1945 in Burslem, Stoke-on-\u003cbr\u003e  Trent, Staffordshire, England) is an English rock musician. He is best known as \u003cbr\u003e  the \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "yd56NsEgWdIJ",
+   "formattedUrl": "en.wikipedia.org/wiki/Lemmy",
+   "htmlFormattedUrl": "en.wikipedia.org/wiki/Lemmy",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Lemmy-02.jpg/250px-Lemmy-02.jpg"
+     }
+    ],
+    "person": [
+     {
+      "role": "Musician, songwriter, actor"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "183",
+      "height": "276",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5wzUq53ich5VwgpjspYXNKHu3DAWBJkn_3R6VeNWOidkU96y9mIi7vy-o"
+     }
+    ],
+    "hcard": [
+     {
+      "fn": "Lemmy",
+      "nickname": "Ian Fraser Kilmister",
+      "url": "www.imotorhead.com",
+      "url_text": "www.imotorhead.com",
+      "bday": "1945-12-24",
+      "role": "Musician, songwriter, actor",
+      "note": "Bass, vocals, guitar, harmonica"
+     },
+     {
+      "fn": "Motörhead"
+     },
+     {
+      "fn": "Hawkwind"
+     },
+     {
+      "fn": "The Damned"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Motörhead' s Lemmy in Nazi photoshoot scandal - The Guardian",
+   "htmlTitle": "Motörhead&#39; s Lemmy in Nazi photoshoot scandal - The Guardian",
+   "link": "http://www.guardian.co.uk/music/2008/jul/11/news.culture",
+   "displayLink": "www.guardian.co.uk",
+   "snippet": "Jul 11, 2008 ... The man known to his mum as Ian Kilmister has broken the law in Germany by   wearing Nazi paraphernalia in a newspaper photoshoot ...",
+   "htmlSnippet": "Jul 11, 2008 \u003cb\u003e...\u003c/b\u003e The man known to his mum as \u003cb\u003eIan Kilmister\u003c/b\u003e has broken the law in Germany by \u003cbr\u003e  wearing Nazi paraphernalia in a newspaper photoshoot \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "663fyKZdGzMJ",
+   "formattedUrl": "www.guardian.co.uk/music/2008/jul/11/news.culture",
+   "htmlFormattedUrl": "www.guard\u003cb\u003eian\u003c/b\u003e.co.uk/music/2008/jul/11/news.culture",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://static.guim.co.uk/sys-images/Music/Pix/pictures/2008/07/11/Lemmy372.jpg"
+     }
+    ],
+    "person": [
+     {
+      "name": "Sean Michaels",
+      "url": "Sean Michaels"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "297",
+      "height": "153",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJfTWM1_KCtzvRsE9BJvppZ4k31pk8BgMij5qVT6j5iLs5_ERspcpIueo"
+     }
+    ],
+    "newsarticle": [
+     {
+      "name": "Motörhead's Lemmy in Nazi photoshoot scandal",
+      "headline": "Motörhead's Lemmy in Nazi photoshoot scandal",
+      "description": "The man known to his mum as Ian Kilmister has broken the law in Germany by wearing Nazi paraphernalia in a newspaper photoshoot",
+      "publisher": "guardian.co.uk",
+      "datepublished": "2008-07-11T11:38BST"
+     }
+    ],
+    "Breadcrumb": [
+     {
+      "title": "Culture",
+      "url": "Culture"
+     },
+     {
+      "title": "Music",
+      "url": "Music"
+     }
+    ],
+    "metatags": [
+     {
+      "dc.date.issued": "2008-07-11",
+      "og:title": "Motörhead's Lemmy in Nazi photoshoot scandal",
+      "og:type": "article",
+      "article:published_time": "2008-07-11T11:38:30+01:00",
+      "article:modified_time": "2008-07-11T11:38:30+01:00",
+      "article:author": "http://www.guardian.co.uk/profile/seanmichaels",
+      "article:tag": "Music",
+      "article:section": "Music",
+      "og:url": "http://www.guardian.co.uk/music/2008/jul/11/news.culture",
+      "og:image": "https://static-secure.guim.co.uk/sys-images/Music/Pix/pictures/2008/07/11/Lemmy372.jpg",
+      "og:site_name": "the Guardian",
+      "og:description": "News: Motörhead's Lemmy has broken German law by wearing Nazi paraphernalia in a newspaper photoshoot",
+      "fb:app_id": "180444840287",
+      "news_keywords": "Music,Culture,Pop and rock,Lemmy,Music",
+      "application-name": "The Guardian",
+      "msapplication-tilecolor": "#004983",
+      "msapplication-tileimage": "http://static.guim.co.uk/static/912723a63ef8e68bb2ac4f0c02d0769cf8eaf6c2/common/images/favicons/windows_tile_144_b.png",
+      "content-id": "/music/2008/jul/11/news.culture"
+     }
+    ],
+    "imageobject": [
+     {
+      "contenturl": "http://static.guim.co.uk/sys-images/Music/Pix/pictures/2008/07/11/Lemmy372.jpg",
+      "representativeofpage": "http://static.guim.co.uk/sys-images/Music/Pix/pictures/2008/07/11/Lemmy372.jpg",
+      "caption": "Lemmy ... 'Don't tell me I'm a Nazi 'cause I have uniforms'"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Motörhead - Julian Cope presents Head Heritage",
+   "htmlTitle": "Motörhead - Julian Cope presents Head Heritage",
+   "link": "http://www.headheritage.co.uk/unsung/thebookofseth/motorhead-whats-wordsworth",
+   "displayLink": "www.headheritage.co.uk",
+   "snippet": "... ex-Pink Fairies guitarist Larry Wallis and Lucas Fox on drums -- Headed up   then, now and always by the man on the bass and vocals, Lemmy “Ian” Kilminster  .",
+   "htmlSnippet": "\u003cb\u003e...\u003c/b\u003e ex-Pink Fairies guitarist Larry Wallis and Lucas Fox on drums -- Headed up \u003cbr\u003e  then, now and always by the man on the bass and vocals, Lemmy “\u003cb\u003eIan\u003c/b\u003e” \u003cb\u003eKilminster\u003c/b\u003e\u003cbr\u003e  .",
+   "cacheId": "ORF2-Hkw9h4J",
+   "formattedUrl": "www.headheritage.co.uk/unsung/.../motorhead-whats-wordsworth",
+   "htmlFormattedUrl": "www.headheritage.co.uk/unsung/.../motorhead-whats-wordsworth",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.headheritage.co.uk/unsung/reviews/covers_194/920.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "155",
+      "height": "155",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSMombTTEBGRmXfLfJdtU5rbB_Y0gwh7eI_gZk2hY6lyXu9cQp-Ov-MLBo"
+     }
+    ],
+    "metatags": [
+     {
+      "fb:page_id": "360946197251883",
+      "fb:admins": "707436964",
+      "og:site_name": "Julian Cope presents Head Heritage",
+      "og:title": "The Book of Seth: Motörhead — What's Wordsworth?",
+      "og:url": "http://www.headheritage.co.uk/unsung/thebookofseth/motorhead-whats-wordsworth",
+      "og:image": "http://www.headheritage.co.uk/unsung/reviews/covers_194/920.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Lemmy - Music Biography, Credits and Discography : AllMusic",
+   "htmlTitle": "Lemmy - Music Biography, Credits and Discography : AllMusic",
+   "link": "http://www.allmusic.com/artist/lemmy-mn0000238341",
+   "displayLink": "www.allmusic.com",
+   "snippet": "Born Ian Fraiser Kilmister on December 24, 1945, in Stoke-On-Trent,   Staffordshire, England, not much is known about Kilmister's early years, just that   he was the ...",
+   "htmlSnippet": "Born \u003cb\u003eIan\u003c/b\u003e Fraiser \u003cb\u003eKilmister\u003c/b\u003e on December 24, 1945, in Stoke-On-Trent, \u003cbr\u003e  Staffordshire, England, not much is known about \u003cb\u003eKilmister\u003c/b\u003e&#39;s early years, just that \u003cbr\u003e  he was the \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "cWZb3bjpMM0J",
+   "formattedUrl": "www.allmusic.com/artist/lemmy-mn0000238341",
+   "htmlFormattedUrl": "www.allmusic.com/artist/lemmy-mn0000238341",
+   "pagemap": {
+    "musicalbum": [
+     {
+      "name": "Damage Case: Lemmy Anthology",
+      "url": "/album/damage-case-lemmy-anthology-mw0001443263",
+      "contentrating": "4"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://cps-static.rovicorp.com/3/JPG_250/MI0002/384/MI0002384401.jpg?partner=allrovi.com"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "200",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQPpBxuB_l0THZLsIAL3fExnChzqFLJL_ZitZwMdudEeib6xrpQPxY9Tu47"
+     }
+    ],
+    "musicgroup": [
+     {
+      "name": "Lemmy"
+     }
+    ],
+    "metatags": [
+     {
+      "fb:app_id": "415271808519760",
+      "og:type": "profile",
+      "og:site_name": "AllMusic",
+      "og:title": "Lemmy - Music Biography, Credits and Discography : AllMusic",
+      "og:description": "Find Lemmy bio, songs, credits, awards related and video information on AllMusic - For many, heavy metal is personified by a single person -- unforgettable Motörhead bassist/shouter",
+      "og:url": "http://www.allmusic.com/artist/lemmy-mn0000238341",
+      "title": "Lemmy - Music Biography, Credits and Discography : AllMusic"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Rock 'n' roll England: 10 top landmarks - Telegraph",
+   "htmlTitle": "Rock &#39;n&#39; roll England: 10 top landmarks - Telegraph",
+   "link": "http://www.telegraph.co.uk/travel/destinations/europe/uk/8160150/Rock-n-roll-England-10-top-landmarks.html?image=9",
+   "displayLink": "www.telegraph.co.uk",
+   "snippet": "Born in Burslem as Ian Kilminster, the son of a Protestant vicar, Lemmy was a   former roadie for Jimi Hendrix. But Stoke's most famous musical son is Robbie ...",
+   "htmlSnippet": "Born in Burslem as \u003cb\u003eIan Kilminster\u003c/b\u003e, the son of a Protestant vicar, Lemmy was a \u003cbr\u003e  former roadie for Jimi Hendrix. But Stoke&#39;s most famous musical son is Robbie \u003cb\u003e...\u003c/b\u003e",
+   "formattedUrl": "www.telegraph.co.uk/.../Rock-n-roll-England-10-top-landmarks.html?...9",
+   "htmlFormattedUrl": "www.telegraph.co.uk/.../Rock-n-roll-England-10-top-landmarks.html?...9",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://i.telegraph.co.uk/multimedia/archive/01792/rock-stoke_1792103i.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "230",
+      "height": "219",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTpzgBezzKUlWGIf9988MR9O7EOFrFrOSCpRVzUyJwQUH1Y7Z1ywE7EY6o"
+     }
+    ],
+    "metatags": [
+     {
+      "tmgads.zone": "travel.destinations.europe.uk",
+      "tmgads.channel": "travel",
+      "tmgads.section": "travel-destinations-europe-uk",
+      "tmgads.articleid": "8160150",
+      "tmgads.pagetype": "gallery",
+      "tmgads.level": "5",
+      "tmgads.geo": "US",
+      "section-id": "888",
+      "last-modified": "2010-12-24",
+      "article-id": "8160150",
+      "title": "Rock 'n' roll England: 10 top landmarks",
+      "gsamlc": "travel/destinations/europe/uk",
+      "gsachannel": "travel",
+      "gsachannelname": "Travel",
+      "gsacategory": "destinations",
+      "gsagenre": "europe",
+      "gsasectionuniquename": "travel-destinations-europe-uk",
+      "fb:app_id": "120118784736295",
+      "fb:admins": "686953094,531239902,100002344351237",
+      "og:description": "Ten of England's greatest rock 'n' roll landmarks, made famous by artists from   The Beatles to Elton John.",
+      "og:site_name": "Telegraph.co.uk",
+      "og:title": "Rock 'n' roll England: 10 top landmarks - Telegraph",
+      "og:url": "http://www.telegraph.co.uk/travel/destinations/europe/uk/8160150/Rock-n-roll-England-10-top-landmarks.html",
+      "og:image": "http://i.telegraph.co.uk/multimedia/archive/01792/rock-stoke_1792103i.jpg",
+      "og:type": "article",
+      "twitter:card": "summary",
+      "twitter:site": "@Telegraph",
+      "dcsext.mlc": "/travel/destinations/europe/uk/slideshow/article",
+      "dcsext.genre": "europe",
+      "dcsext.category": "destinations",
+      "wt.cg_s": "destinations",
+      "dcsext.channel": "travel",
+      "wt.cg_n": "travel",
+      "dcsext.imageno": "9",
+      "dcsext.gallerytype": "standard",
+      "dcsext.content_type": "Gallery",
+      "dcsext.level": "5",
+      "dcsext.articlefirstpublished": "2010-12-24",
+      "dcsext.articleid": "8160150",
+      "dcsext.cf": "0",
+      "dcsext.cn": "0",
+      "dcsext.cd": "0"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Cherry Red Records - The Complete: It's Alright!",
+   "htmlTitle": "Cherry Red Records - The Complete: It&#39;s Alright!",
+   "link": "http://www.cherryred.co.uk/rpmshout-exd.asp?id=3197",
+   "displayLink": "www.cherryred.co.uk",
+   "snippet": "... original guitarist quit in 1965 to be replaced by one Ian Willis -aka Ian   Kilminster - aka Lemmy/ As might be expected from his current occupation in   Motorhead, ...",
+   "htmlSnippet": "\u003cb\u003e...\u003c/b\u003e original guitarist quit in 1965 to be replaced by one Ian Willis -aka \u003cb\u003eIan\u003c/b\u003e \u003cbr\u003e  \u003cb\u003eKilminster\u003c/b\u003e - aka Lemmy/ As might be expected from his current occupation in \u003cbr\u003e  Motorhead, \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "tdyiW5NzPyQJ",
+   "formattedUrl": "www.cherryred.co.uk/rpmshout-exd.asp?id=3197",
+   "htmlFormattedUrl": "www.cherryred.co.uk/rpmshout-exd.asp?id=3197",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.cherryred.co.uk/images/rpm196.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "196",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR690X4daqkNW5llrHCSGBnGw3Zr4U2Fay2D3s2NMLEotm4yotOCgHMstbO"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "BBC - Stoke & Staffordshire - History - Lemmy - Staffordshire Boy",
+   "htmlTitle": "BBC - Stoke &amp; Staffordshire - History - Lemmy - Staffordshire Boy",
+   "link": "http://www.bbc.co.uk/stoke/content/articles/2005/09/07/lemmy_motorhead_feature.shtml",
+   "displayLink": "www.bbc.co.uk",
+   "snippet": "Sep 7, 2005 ... In 1946, Ian Fraser Kilminster - or Lemmy to his friends and fans - was born in   Burslem, one of Stoke-on-Trent's northern-most towns. He then ...",
+   "htmlSnippet": "Sep 7, 2005 \u003cb\u003e...\u003c/b\u003e In 1946, \u003cb\u003eIan\u003c/b\u003e Fraser \u003cb\u003eKilminster\u003c/b\u003e - or Lemmy to his friends and fans - was born in \u003cbr\u003e  Burslem, one of Stoke-on-Trent&#39;s northern-most towns. He then \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "FcLN9Gr7oMIJ",
+   "formattedUrl": "www.bbc.co.uk/stoke/content/.../lemmy_motorhead_feature.shtml",
+   "htmlFormattedUrl": "www.bbc.co.uk/stoke/content/.../lemmy_motorhead_feature.shtml",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.bbc.co.uk/stoke/content/images/2009/09/08/motorhead_steve_plimmer_4_203x152.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "162",
+      "height": "121",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTlgBhVPUSNUCZESFbXYcW9hF2G-xv8rTHCZQvmVHj8xPSRbzB8tXSX8A"
+     }
+    ],
+    "metatags": [
+     {
+      "bbc.cmc.propername": "label='download festival';guid='http://api.bbc.co.uk/metadata/cmc/propernames/bmFtZS9kb3dubG9hZCBmZXN0aXZhbA==';parent='events and occasions'",
+      "dc.subject": "label='music';guid='http://api.bbc.co.uk/metadata/cmc/subject/c3ViamVjdC9tdXNpYw==';parent='performing arts'",
+      "dcterms.spatial": "label='stoke-on-trent';guid='http://api.bbc.co.uk/metadata/cmc/location/bG9jYXRpb24vc3Rva2Utb24tdHJlbnQ=';parent='staffordshire'",
+      "dcterms.modified": "2009-12-24",
+      "updated": "2009-12-24",
+      "dcterms.created": "2005-09-07",
+      "created": "2005-09-07",
+      "dc.title": "Lemmy - Staffordshire Boy",
+      "dc.creator": "BBC",
+      "dc.description": "If you like your music loud and heavy, you must have head-banged to Motorhead's \"Ace of Spades\". This rock classic was penned by a man raised in Stoke and Staffordshire, the music legend - Lemmy!  Here we look back over the man's roots...",
+      "dc.publisher": "BBC",
+      "dc.identifier": "http://www.bbc.co.uk/stoke/content/articles/2005/09/07/lemmy_motorhead_feature.shtml",
+      "dc.language": "en-gb",
+      "cid": "09011629809caaf7"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Motörhead - UK tickets, tour dates, news, gigs and concerts in 2013",
+   "htmlTitle": "Motörhead - UK tickets, tour dates, news, gigs and concerts in 2013",
+   "link": "http://www.allgigs.co.uk/view/artist/4956/Motorhead.html",
+   "displayLink": "www.allgigs.co.uk",
+   "snippet": "Metal and rock outfit formed in 1975 by Ian Kilminster aka Lemmy. Current   members also include Phil Campbell (since 1986) and Mikkey Dee (since 1993).",
+   "htmlSnippet": "Metal and rock outfit formed in 1975 by \u003cb\u003eIan Kilminster\u003c/b\u003e aka Lemmy. Current \u003cbr\u003e  members also include Phil Campbell (since 1986) and Mikkey Dee (since 1993).",
+   "cacheId": "bFpjcKD3RVwJ",
+   "formattedUrl": "www.allgigs.co.uk/view/artist/4956/Motorhead.html",
+   "htmlFormattedUrl": "www.allgigs.co.uk/view/artist/4956/Motorhead.html",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.allgigs.co.uk/images/object/artist/4956/Motorhead-1-200-200-100-crop.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "160",
+      "height": "160",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRk4Sz7z_nfDR3EdVG1b0vhUFb819mmP8FSw6EMABRU2epaDzuCdG48dj97"
+     }
+    ],
+    "hcalendar": [
+     {
+      "dtstart": "2013-06-15",
+      "summary": "Download 2013, Iron Maiden, Queens of the Stone Age, Mot&oum...",
+      "url": "http://www.allgigs.co.uk/view/event/521289/Download_2013_Iron_Maiden_Donington_Park_Castle_Donington_Derbyshire_15_June_2013.html",
+      "dtend": "2013-06-15"
+     }
+    ],
+    "event": [
+     {
+      "dtstart": "2013-06-15",
+      "summary": "Download 2013, Iron Maiden, Queens of the Stone Age, Mot&oum...",
+      "location": "Derbyshire",
+      "url": "http://www.allgigs.co.uk/view/event/521289/Download_2013_Iron_Maiden_Donington_Park_Castle_Donington_Derbyshire_15_June_2013.html",
+      "dtend": "2013-06-15"
+     }
+    ],
+    "metatags": [
+     {
+      "copyright": "AllGigs Limited",
+      "og:image": "http://www.allgigs.co.uk/images/object/artist/4956/Motorhead-1-200-200-100-crop.jpg",
+      "og:url": "http://www.allgigs.co.uk/view/artist/4956/Motorhead.html",
+      "og:type": "band",
+      "og:title": "Motörhead - UK tickets, tour dates, news, gigs and concerts in 2013",
+      "og:site_name": "Allgigs",
+      "fb:app_id": "316235678496080",
+      "og:description": "Motorhead [Metal/ Rock] - tickets available for 1 date in Derbyshire in June 2013"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Celebrity picks for Derby Dead Pool 2013: K",
+   "htmlTitle": "Celebrity picks for Derby Dead Pool 2013: K",
+   "link": "http://www.derbydeadpool.co.uk/deadpool2013/celebs_K.html",
+   "displayLink": "www.derbydeadpool.co.uk",
+   "snippet": "Kilminster, Ian. Born 24 December 1945 (Stoke-on-Trent, Staffordshire, England).   Warty-faced rocker Lemmy out of Motorhead. 20 Celebrities, Sitting On A Wall, ...",
+   "htmlSnippet": "\u003cb\u003eKilminster\u003c/b\u003e, \u003cb\u003eIan\u003c/b\u003e. Born 24 December 1945 (Stoke-on-Trent, Staffordshire, England). \u003cbr\u003e  Warty-faced rocker Lemmy out of Motorhead. 20 Celebrities, Sitting On A Wall, \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "W-zREtjV2JMJ",
+   "formattedUrl": "www.derbydeadpool.co.uk/deadpool2013/celebs_K.html",
+   "htmlFormattedUrl": "www.derbydeadpool.co.uk/deadpool2013/celebs_K.html",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.derbydeadpool.co.uk/images/celebs/k/kabilj.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "120",
+      "height": "120",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFBM4dzq12gS6rs4M74SlPpo-qKuu3D4EyBcid6hwTuWPPjNz-YZcq"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Lemmy - IMDb",
+   "htmlTitle": "Lemmy - IMDb",
+   "link": "http://www.imdb.com/name/nm0501437/",
+   "displayLink": "www.imdb.com",
+   "snippet": "2006 Starter for 10 (writer: \"Ace of Spades\" / as Ian Fraser Kilminster). 2006 Free   Jimmy ... 2000 2gether (TV movie) (writer: \"Eat The Rich\" / as Ian Kilmister) ...",
+   "htmlSnippet": "2006 Starter for 10 (writer: &quot;Ace of Spades&quot; / as Ian Fraser Kilminster). 2006 Free \u003cbr\u003e  Jimmy \u003cb\u003e...\u003c/b\u003e 2000 2gether (TV movie) (writer: &quot;Eat The Rich&quot; / as \u003cb\u003eIan Kilmister\u003c/b\u003e) \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "OijdUAPCvqcJ",
+   "formattedUrl": "www.imdb.com/name/nm0501437/",
+   "htmlFormattedUrl": "www.imdb.com/name/nm0501437/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://ia.media-imdb.com/images/M/MV5BMjEyNjUzNjI0NF5BMl5BanBnXkFtZTcwOTExMTA0Mg@@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZATrailer,4,121,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA02%253A32,164,1,14,36,verdenab,7,255,255,255,1_ZAAnvil%253A%2520The%2520Story%2520of%2520Anvil,4,136,14,196,arialbd,7,255,255,255,1_.jpg"
+     }
+    ],
+    "person": [
+     {
+      "role": "http://www.imdb.com/name/nm0501437/#Soundtrack"
+     },
+     {
+      "image": "http://ia.media-imdb.com/images/M/MV5BMTgyNDYxMjU0Ml5BMl5BanBnXkFtZTYwMzUzNTY3._V1._SY314_CR129,0,214,314_.jpg",
+      "name": "Lemmy",
+      "jobtitle": "Soundtrack",
+      "birthdate": "1945-12-24",
+      "performerin": "Anvil: The Story of Anvil (2008)"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "160",
+      "height": "120",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTbAmYG0rh9qPwnlvXdZy7YLuBJYPffG3iMgIa-bHWsJpqsbyebAyXiiUE"
+     }
+    ],
+    "metatags": [
+     {
+      "title": "Lemmy - IMDb",
+      "og:image": "http://ia.media-imdb.com/images/M/MV5BMTgyNDYxMjU0Ml5BMl5BanBnXkFtZTYwMzUzNTY3._V1._SX100_SY66_.jpg",
+      "og:type": "actor",
+      "fb:app_id": "115109575169727",
+      "og:title": "Lemmy",
+      "og:site_name": "IMDb",
+      "application-name": "IMDb",
+      "msapplication-tooltip": "IMDb Web App",
+      "msapplication-window": "width=1500;height=900",
+      "msapplication-task": "name=Find Movie Showtimes;action-uri=/showtimes/;icon-uri=http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/favicon.ico",
+      "og:url": "http://www.imdb.com/name/nm0501437/"
+     }
+    ],
+    "hcard": [
+     {
+      "fn": "Lemmy",
+      "title": "http://www.imdb.com/name/nm0501437/#Soundtrack",
+      "nickname": "Lemmy",
+      "bday": "1945-12-24",
+      "photo": "http://ia.media-imdb.com/images/M/MV5BMTgyNDYxMjU0Ml5BMl5BanBnXkFtZTYwMzUzNTY3._V1._SY314_CR129,0,214,314_.jpg"
+     }
+    ]
+   }
+  }
+ ]
+}
