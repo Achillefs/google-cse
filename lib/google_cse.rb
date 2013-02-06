@@ -36,8 +36,6 @@ private
         raise MissingKey
       end
     end
-    
-    
   end
   
   def self.default_params
