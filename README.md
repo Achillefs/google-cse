@@ -20,9 +20,9 @@ Or install it yourself as:
 
 Set it up:
 
-    require 'google_cse'
-	GoogleCSE::CX = 'a-cse-identifier'
-	GoogleCSE::KEY = 'a-googleapis-app-key'
+	require 'google_cse'
+	GoogleCSE::CX = '004660295420853704579:8tths02yqhc'
+	GoogleCSE::KEY = 'AIzaSyD_yJk60g--MHz5yQ39k6tIrG0S7zpKLLk'
 
 If you are on a rails app, you should stick the constants in an initializer
 
@@ -38,6 +38,24 @@ Do the same for an image:
 	file = img.split('/').last
 	File.open(file,'w') {|f| f.write(open(img).read)} 
     `open -a Preview #{file}`
+
+Paginated access:
+
+	g = GoogleCSE.image_search('Ian Kilminster')
+	g.fetch.results.first.link # fetches first page, first result
+	#=> http://en.wikipedia.org/wiki/Lemmy
+	g.next.results.first.link # fetches next page, first result
+	#=> http://www.discogs.com/artist/Ian+Fraser+Kilmister
+	g.previous.results.first.link # ...and back to first page
+	#=> http://en.wikipedia.org/wiki/Lemmy
+
+You can specify any extra parameters the API allows. View a complete list [here](https://developers.google.com/custom-search/v1/cse/list)
+
+Example:
+
+	# Only return large jpegs, I can't enjoy such high art otherwise
+	g = GoogleCSE.image_search('Flight of Icarus Cover', :fileType => :jpg, :imgSize => :large)
+	#=> http://musictrajectory.com/wp-content/uploads/2011/08/iron-maiden-flight-of-icarus-single-cover.jpg
 
 ## Contributing
 
