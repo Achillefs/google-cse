@@ -35,7 +35,7 @@ module GoogleCSE
     
     def previous
       if previous?
-        @params.merge!({:start => @previous_page_params.first['startIndex']})
+        @params.merge!({:start => @prev_page_params.first['startIndex']})
         fetch
       end
     end
