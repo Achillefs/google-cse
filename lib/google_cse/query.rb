@@ -5,7 +5,7 @@ require 'open-uri'
 module GoogleCSE
   class Query
     @@endpoint = 'https://www.googleapis.com/customsearch/v1'
-    attr_accessor :params, :results, :info, :response
+    attr_accessor :params, :results, :info, :response, :current_index, :total, :per_page, :time
   
     def initialize opts = {}
       opts.map {|k,v| send(:"#{k}=",v)}
@@ -25,12 +25,42 @@ module GoogleCSE
       fetch
       nil
     end
-  
+    
+    def next
+      if next?
+        @params.merge!({:start => @next_page_params.first['startIndex']})
+        fetch        
+      end
+    end
+    
+    def previous
+      if previous?
+        @params.merge!({:start => @previous_page_params.first['startIndex']})
+        fetch
+      end
+    end
+    
+    def next?
+      !(@next_page_params.nil? || @next_page_params.empty?)
+    end
+    
+    def previous?
+      !(@prev_page_params.nil? || @prev_page_params.empty?)
+    end
+    
+    def page
+      (current_index / per_page.to_f).ceil
+    end
+    
     def parse_response!
       @results = @response['items'].map { |i| Result.new(i) }
-      @next_page_params = @response['queries']['nextpage']
-      @prev_page_params = @response['queries']['previouspage']
+      @next_page_params = @response['queries']['nextPage']
+      @prev_page_params = @response['queries']['previousPage']
       @info = @response['searchInformation']
+      @total = @info['totalResults'].to_i
+      @time = @info['searchTime'].to_f
+      @per_page = @response['queries']['request'].first['count'].to_i
+      @current_index = @response['queries']['request'].first['startIndex'].to_i
       nil
     end
   end

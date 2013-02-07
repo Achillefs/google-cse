@@ -56,10 +56,51 @@ describe GoogleCSE do
           subject.parse_response!
           subject
         }
+        subject.fetch
       }
-    
-      it { subject.fetch.results.size.should eq(10) }
-      it { subject.fetch.results.first.link.should eq(subject.fetch.results.first['link']) }
+      
+      it { subject.results.size.should eq(10) }
+      it { subject.results.first.link.should eq(subject.fetch.results.first['link']) }
+      it { subject.page.should eq(1) }
+      it { subject.current_index.should eq(1) }
+      it { subject.per_page.should eq(10) }
+      
+      describe 'next' do
+        before {
+          subject.stub(:next) { 
+            subject.response = JSON.parse(File.read('./spec/files/google_search_page2.txt'))
+            subject.parse_response!
+            subject
+          }
+          subject.fetch
+        }
+        
+        it { subject.next?.should eq(true) }
+        it { subject.next.should eq(subject) }
+        it { subject.next.current_index.should eq(11) }
+        it { subject.next.page.should eq(2) }
+      end
+      
+      describe 'previous' do
+        before {
+          subject.stub(:next) { 
+            subject.response = JSON.parse(File.read('./spec/files/google_search_page2.txt'))
+            subject.parse_response!
+            subject
+          }
+          subject.stub(:previous) { 
+            subject.response = JSON.parse(File.read('./spec/files/google_search.txt'))
+            subject.parse_response!
+            subject
+          }
+          subject.fetch.next
+        }
+        
+        it { subject.previous?.should eq(true) }
+        it { subject.previous.should eq(subject) }
+        it { subject.previous.current_index.should eq(1) }
+        it { subject.previous.page.should eq(1) }
+      end
     end
   
     describe '#image_search' do
