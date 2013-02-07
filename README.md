@@ -18,12 +18,26 @@ Or install it yourself as:
 
 ## Usage
 
+Set it up:
+
+    require 'google_cse'
+	GoogleCSE::CX = 'a-cse-identifier'
+	GoogleCSE::KEY = 'a-googleapis-app-key'
+
+If you are on a rails app, you should stick the constants in an initializer
+
+Run a search and visit the first result, 'feeling lucky' style (on a mac):
+
     g = GoogleCSE.search('Ian Kilminster')
-    #=> GoogleCSE::Query
-    
-    g = GoogleCSE.image_search('Ian Kilminster')
-    #=> GoogleCSE::Query
-    g.fetch.results.first.link
+    `open -a Safari #{g.fetch.results.first.link}`
+
+Do the same for an image:
+
+	g = GoogleCSE.image_search('Ian Kilminster')
+	img = g.fetch.results.first.link
+	file = img.split('/').last
+	File.open(file,'w') {|f| f.write(open(img).read)} 
+    `open -a Preview #{file}`
 
 ## Contributing
 
