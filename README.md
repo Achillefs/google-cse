@@ -19,7 +19,8 @@ Or install it yourself as:
 ## Usage
 
 Set it up:
-	# you will need a Google API account and have CSE enabled.
+
+        # you will need a Google API account and have CSE enabled.
 	require 'google_cse'
 	GoogleCSE::CX = '<your-cx>'
 	GoogleCSE::KEY = '<your-app-key>'
