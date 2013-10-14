@@ -19,10 +19,10 @@ Or install it yourself as:
 ## Usage
 
 Set it up:
-
+	# you will need a Google API account and have CSE enabled.
 	require 'google_cse'
-	GoogleCSE::CX = '004660295420853704579:8tths02yqhc'
-	GoogleCSE::KEY = 'AIzaSyD_yJk60g--MHz5yQ39k6tIrG0S7zpKLLk'
+	GoogleCSE::CX = '<your-cx>'
+	GoogleCSE::KEY = '<your-app-key>'
 
 If you are on a rails app, you should stick the constants in an initializer
 
